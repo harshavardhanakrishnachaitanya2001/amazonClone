@@ -1,0 +1,50 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size:25px;
+}
+a:hover{
+    background-color: black;
+    color:white;
+}
+#mainHeading{
+    background: skyblue;
+}
+#mainHeading h1{
+    text-align: center;
+}
+#signInOrRegister{
+    float: right;
+    margin-right: 2px;
+}
+#registerButton:hover{
+    background: skyblue;
+}
+button{
+    cursor: pointer;
+}
+input{
+    text-align: center;
+}
+#navigation a{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.productsAndPrices{
+    display:flex;
+}
+img{
+    height:150px;
+    border:1px solid black;
+    width: 150px;
+    cursor: pointer;
+
+}
+img:hover{
+    opacity: 0.7;
+}

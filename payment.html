@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Pay for items</title>
+        <meta charset="utf-8">
+        <style>
+            h1{
+                font-size: 4rem;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 5px;
+            }
+            #creditcardoption{
+                margin-left: 4rem;
+            }
+            .cardDetails{
+                margin-left: 8rem;
+            }
+
+            button{
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                cursor: pointer;
+            }
+            input{
+                font-size: 25px;
+                text-align: center;
+            }
+            div{
+                text-align: center;
+            }
+            hr{
+                margin-bottom: 5px;
+            }
+
+             #cardPay{
+                font-size: 25px;
+            } 
+            body{
+                font-size: 25px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Payment</h1>
+        <hr/><hr />
+        <div>
+            <label>
+                <input type="radio" name="cardOption" id="creditcardoption"/>
+                <b><u>Credit</u> <u>card</u></b>
+                <br />
+            </label>
+            <br>
+            <label class="cardDetails">
+                Card number:
+                <input type="text"/>
+            </label>
+
+            <br /><br />
+
+            <label class="cardDetails">
+                Name on card:
+                <input type="text"/>
+            </label>
+
+            <br /> <br />
+
+            <label class="cardDetails">
+                CVV: <input type="number"/>
+            </label>
+
+            <br /><br />
+            <label class="cardDetails">
+                Valid from:<input type="date" />
+            </label>
+            <br /><br />
+
+            <label class="cardDetails">
+                Expairs on: <input type="date" />
+            </label>
+        </div>
+        <hr>
+
+        <br/> <br />
+
+
+        <div>
+            <label>
+                <input type="radio" name="cardOption" id="debitCardOption">
+                <b><u>Debit</u> <u>card</u></b>
+                <br /> <br />
+            </label>
+
+            <label class="cardDetails">
+                Card number:
+                <input type="text"/>
+            </label>
+            <br /><br />
+            <label class="cardDetails">
+                Name on card: <input type="text"/>
+            </label>
+            <br /><br />
+            <label class="cardDetails">
+                CVV:<input type="number"/>
+            </label>
+            <br /><br />
+            <label class="cardDetails">
+                Valid from: <input type="date"/>
+            </label>
+
+            <br /> <br />
+            <label class="cardDetails">
+                Expairs on: <input type="date" />
+            </label>
+        </div>
+        <hr>
+        <br />
+        <div>
+            <label>
+                <input type="radio" name="cardOption" id="netBanking"/>
+                Net Banking
+            </label>
+        </div>
+        <br />
+        <div>(OR)</div>
+        <br />
+        <div>
+            <label>
+                <input type="radio" name="cardOption"/>
+                Pay on Delivary
+            </label>
+        </div>
+        <br />
+        <button type="submit" id="cardPay">Done</button>
+    </body>
+</html>

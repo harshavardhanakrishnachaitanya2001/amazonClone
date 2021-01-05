@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <meta charset="utf-8"/>
+        <style>
+            body{
+                text-align: center;
+                font-size: 25px;
+            }
+            table{
+                margin-left: auto;
+                margin-right: auto;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            input{
+                text-align: center;
+                font-size: 20px;
+            }
+            h1{
+                font-size: 4rem;
+                margin-top: 0px;
+                margin-bottom: 5px;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-weight: bolder;
+            }
+            button{
+                margin-top: 20px;
+                margin-left: 90px;
+                font-size:25px;
+                cursor:pointer;
+            }
+            a{
+                text-decoration: none;
+                color:black;
+                text-decoration: none;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                float: right;
+                margin-right:4rem
+            }
+            a:hover{
+                text-decoration: underline;
+            }
+        </style>
+    </head>
+    <body>
+        <a href="index.html">Home</a>
+        <h1>Become a member</h1>
+        <table>
+            <tr>
+                <th>Name*:</th>
+                <td><input type="text" required/></td>
+            </tr>
+            <tr>
+                <th>Phone*:</th>
+                <td>
+                    <input type="number" required/>
+                </td>
+            </tr>
+            <tr>
+                <th>Address*:</th>
+                <td>
+                    <textarea required></textarea>
+                </td>
+            </tr>
+            <tr>
+                <th>Email*:</th>
+                <td>
+                    <input type="email" placeholder="johnGreeshum@gmail.com" required/>
+                </td>
+            </tr>
+            <tr>
+                <th>Password*:</th>
+                <td>
+                    <input type="password" required/>
+                </td>
+            </tr>
+            <tr>
+                <th>Confirm password:</th>
+                <td><input type="password" required/></td>
+            </tr>
+        </table>
+        <button type="submit">Add me</button>
+    </body>
+
+</html>
